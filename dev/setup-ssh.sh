@@ -4,6 +4,7 @@
 sudo pacman -S openssh gnupg kwalletmanager kwallet kwalletcli pinentry ksshaskpass
 
 # Install systemd unit
+mkdir -p $HOME/.config/systemd/user
 cp ssh-agent.service $HOME/.config/systemd/user
 systemctl --user enable ssh-agent;systemctl --user start ssh-agent
 
