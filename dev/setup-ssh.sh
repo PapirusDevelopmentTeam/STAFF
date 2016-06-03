@@ -18,6 +18,7 @@ echo 'eval `ssh-agent -s` > /dev/null && ssh-add $HOME/.ssh/id_rsa' >> $HOME/.ba
 # Add ssh config
 mkdir $HOME/.ssh; touch $HOME/.ssh/config
 echo 'IdentityFile ~/.ssh/id_rsa' >> $HOME/.ssh/config
-echo 'User $USER' >> $HOME/.ssh/config
+# Change LOGIN on your GitHub login
+echo 'User LOGIN' >> $HOME/.ssh/config
 echo 'ForwardAgent yes' >> $HOME/.ssh/config
 
