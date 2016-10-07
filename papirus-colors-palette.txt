@@ -1,0 +1,52 @@
+Handy hex color codes used in the various repo. Hope this helps.
+
+KDE color scheme
+
+#383838
+#706F6E
+#BDC3C7
+#EFF0F1
+#888888
+#3DAEE9
+#7F8C8D
+#2980B9
+#DA4453
+#F67400
+#31363B
+#27AE60
+#1D99F3
+#FCFCFC
+#FDBC4B
+#4D4D4D
+#FFFFFF
+#4B4743
+
+Kvantum theme
+
+window.color=#eff0f1
+base.color=#eff0f1
+alt.base.color=#eff0f1
+button.color=#eff0f1
+light.color=#eff0f1
+mid.light.color=#eff0f1
+dark.color=#787878
+mid.color=#787878
+highlight.color=#787878
+inactive.highlight.color=#949494
+text.color=#404040
+window.text.color=#404040
+button.text.color=#404040
+disabled.text.color=#00000073
+tooltip.text.color=#eff0f1
+highlight.text.color=#eff0f1
+link.color=#0057AE
+link.visited.color=#452886
+progress.indicator.text.color=#eff0f1
+text.normal.color=#404040
+text.focus.color=#404040
+text.press.color=#eff0f1
+text.toggle.color=#eff0f1
+
+Kmail Theme
+
+#F8F8FF
