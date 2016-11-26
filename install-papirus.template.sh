@@ -34,7 +34,6 @@ tar -xzf "/tmp/$gh_repo.tar.gz" -C "$temp_dir"
 echo "=> Deleting old $gh_desc ..."
 rm -rf "<!--/DESTINATION/PATH/DIR1--!>" "<!--/DESTINATION/PATH/DIR2--!>"
 echo "=> Installing ..."
-mkdir -p ~/.local/share/icons
 cp --no-preserve=mode,ownership -r \
   "$temp_dir/$gh_repo-master/<!--DIR1--!>" \
   "$temp_dir/$gh_repo-master/<!--DIR2--!>" \
