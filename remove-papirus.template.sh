@@ -25,5 +25,5 @@ cat <<- EOF
 EOF
 
 echo "=> Removing $gh_desc ..."
-rm -rf "<!--/DESTINATION/PATH/DIR1--!>" "<!--/DESTINATION/PATH/DIR2--!>" \
+rm -rf "<!--/DESTINATION/PATH/DIR1--!>" "<!--/DESTINATION/PATH/DIR2--!>"
 echo "=> Done!"
